@@ -32,21 +32,21 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFN-OH-aJF">
-                                <rect key="frame" x="20" y="407" width="374" height="31"/>
+                                <rect key="frame" x="140" y="407" width="134" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="VOp-Jj-Gxd"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Sign Up"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Sign Up"/>
                                 <connections>
                                     <action selector="signupButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RXO-V5-XtH"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
-                            <constraint firstItem="zFN-OH-aJF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ABu-qU-S5b"/>
+                            <constraint firstItem="zFN-OH-aJF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="ABu-qU-S5b"/>
                             <constraint firstItem="LKM-de-8ig" firstAttribute="leading" secondItem="6r7-gJ-muQ" secondAttribute="leading" id="COf-wZ-z9y"/>
                             <constraint firstItem="LKM-de-8ig" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="LnF-fu-Ify"/>
                             <constraint firstItem="LKM-de-8ig" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="106" id="MAD-Ap-8di"/>
@@ -72,8 +72,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

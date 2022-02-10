@@ -37,7 +37,21 @@ class ViewController: UIViewController {
             print("not valid")
             
         }
+        
+        let alertController = UIAlertController(title: "Alert", message: "This is a valid email address", preferredStyle: .alert)
+
+                let OKAction = UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction!) in
+
+                    // Code in this block will trigger when OK button tapped.
+                    print("Ok button tapped");
+
+                }
+
+                alertController.addAction(OKAction)
+
+                self.present(alertController, animated: true, completion:nil)
     }
+    
 }
 
 func isValidEmailAddress(emailAddressString: String) -> Bool {
@@ -63,19 +77,5 @@ func isValidEmailAddress(emailAddressString: String) -> Bool {
   return  returnValue
 }
 
-func showAlert(title: String, message: String) {
-    let alertController = UIAlertController(title: "Alert title", message: "Message to display", preferredStyle: .alert)
-            
-            let OKAction = UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction!) in
-                
-                // Code in this block will trigger when OK button tapped.
-                print("Ok button tapped");
-                
-            }
-            
-            alertController.addAction(OKAction)
-            
-            self.present(alertController, animated: true, completion:nil)
-}
 
 
